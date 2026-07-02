@@ -16,5 +16,5 @@
 ## 🌐 Deploy
 https://silver-horse-3c7d16.netlify.app
 
-## 🏅 Code Climate
-[![Maintainability](https://api.codeclimate.com/v1/badges/XXXX/maintainability)](https://codeclimate.com/github/yourname/jupyter-extensions-catalog)
+## 🏅 Code Factor
+[![CodeFactor](https://www.codefactor.io/repository/github/kakatel47/jupyter-ext-catalog/badge)](https://www.codefactor.io/repository/github/kakatel47/jupyter-ext-catalog)
