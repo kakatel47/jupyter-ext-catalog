@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jupyter Extensions Catalog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>📚 Jupyter Extensions Catalog</h1>
+    <p>Каталог расширений для Jupyter Notebook. Настрой и скачай ZIP.</p>
+    <nav>
+      <button id="show-favorites">⭐ Избранное (<span id="fav-count">0</span>)</button>
+      <button id="show-all">📖 Все расширения</button>
+    </nav>
+  </header>
+
+  <main id="catalog" class="grid"></main>
+
+  <!-- Модалка настроек -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+      <label>Текст ячейки по умолчанию:</label>
+      <textarea id="modal-input" rows="4">import numpy as np
+import pandas as pd</textarea>
+      <div class="modal-actions">
+        <button id="download-btn">⬇️ Скачать ZIP</button>
+        <button id="fav-btn">⭐ В избранное</button>
+        <button id="close-btn">Закрыть</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Учебный проект · HTML/CSS/JS · <a href="https://github.com/" id="gh-link">GitHub</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
