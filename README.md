@@ -14,7 +14,7 @@
 Просто открой `index.html` в браузере или через Live Server в VS Code.
 
 ## 🌐 Deploy
-https://yourname.github.io/jupyter-extensions-catalog/
+https://silver-horse-3c7d16.netlify.app
 
 ## 🏅 Code Climate
 [![Maintainability](https://api.codeclimate.com/v1/badges/XXXX/maintainability)](https://codeclimate.com/github/yourname/jupyter-extensions-catalog)
